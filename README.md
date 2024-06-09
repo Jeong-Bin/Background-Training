@@ -16,5 +16,6 @@ ps -ef | grep train.py (백그라운드에서 실행되고 있는지 확인)
 ps -ef | grep train.py (pid 번호 찾기) </br>
 sudo kill -9 [PID번호] </br>
 
+pkill -f nohup (모든 nohup 한꺼번에 종료)
 
 ## putty
