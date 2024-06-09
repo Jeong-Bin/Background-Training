@@ -5,7 +5,7 @@ nohup 명령어를 이용하여 실행할 명령어 파일의 권한은 755(rxwr
 chmod 755 test.sh
 
 nohup train.py & </br>
-nohup train.py > & (표준 출력 덮어쓰기) </br>
+nohup train.py > nohup.out & (표준 출력 덮어쓰기) </br>
 nohup train.py 1> standard.out 2> standard.err & (표준 출력 및 표준 에러 파일 변경하기) </br>
 nohup train.py > standard.log 2>&1 & (표준 출력 및 표준 에러를 같은 파일에 쓰기) </br>
 nohup train.py > /dev/null & (표준 출력 X)
